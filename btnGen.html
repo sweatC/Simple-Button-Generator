@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	
+	<div class="container-fluid">
+	<h1 class="text-center bg-info">CSS Button Generator</h1>
+		<div class="row-fluid">
+			<div class="col-md-4 well">
+				<h3 class="text-center">Settings</h3>
+				<div class="col-md-6 tabs">
+					<button class="btn" id="incrementBtn"><i class="glyphicon glyphicon-chevron-up"></i></button>
+					<button class="btn" id="decrementBtn"><i class="glyphicon glyphicon-chevron-down"></i></button>
+				</div>
+				<div class="col-md-6 tabs">
+					<div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1">step</span>
+					  <input type="text" id="step" class="form-control" value="1" aria-describedby="basic-addon1">
+					</div>
+				</div>
+	 			<div class="row">
+					<h3 class="text-center">Color</h3>
+					<div class="col-md-12">
+						<div class="input-group tabs">
+							<span class="input-group-addon" id="basic-addon1">Background-color</span>
+						    <input type="text" id="bgColor" class="form-control jscolor" value="AB2567" aria-describedby="basic-addon1">
+						</div>	
+						<div class="input-group tabs">
+						   <span class="input-group-addon" id="basic-addon1">Border-color</span>
+						   <input type="text" id="borderColor" class="form-control jscolor" value="BECFC5" aria-describedby="basic-addon1">
+						</div>
+					</div>
+				</div>	
+			</div>					
+			<div class="col-md-4 well">
+				<h3 class="text-center">View</h3>
+				<div class="btn-res"></div>
+			</div>
+			<div class="col-md-4 well text-center ">
+				<h3 class="text-center">CSS</h3>
+				<textarea  class="tabs" id="codeRes" cols="35" rows="8">
+				</textarea>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jscolor/jscolor.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

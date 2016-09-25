@@ -1,0 +1,21 @@
+{
+  "name": "studyB",
+  "authors": [
+    "Ilya Novohatskyy <joker_112@ukr.net>"
+  ],
+  "description": "learn bootstrap",
+  "main": "site.html",
+  "keywords": [
+    "bootstrap",
+    "jq"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
